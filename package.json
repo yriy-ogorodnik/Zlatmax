@@ -15,7 +15,8 @@
 		"zip": "gulp deployZIP --build",
 		"devbuild": "gulp build --build --nowebp",
 		"tmp": "gulp -f gulpfile.tmp.js",
-		"bem": "fls-bemtree-from-html"
+		"bem": "fls-bemtree-from-html",
+		"deployt": "gh-pages -b master -d dist"
 	},
 	"devDependencies": {
 		"copy-webpack-plugin": "latest",
